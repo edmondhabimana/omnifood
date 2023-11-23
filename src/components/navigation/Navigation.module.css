@@ -6,7 +6,7 @@
 
 .navigation {
   padding: 25px 40px;
-  /* background-color: #fdf2e9; */
+  background-color: #fdf2e9;
 
   display: flex;
   justify-content: space-between;
@@ -31,7 +31,7 @@ ul {
 
 li:hover {
   cursor: pointer;
-  color: #f08c00;
+  color: #e67e25;
 }
 
 button {
@@ -39,7 +39,7 @@ button {
   font-size: 20px;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
-  background-color: #f08c00;
+  background-color: #e67e25;
   color: white;
   padding: 10px 25px;
   border-radius: 10px;
