@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  padding-bottom: 70px;
+  font-family: 'Rubik', sans-serif;
+  background-color: #fdf2e9;
+
+  display: flex;
+}
+
+.container-one {
+  width: 50%;
+  background-color: #fdf2e9;
+  padding-left: 70px;
+  padding-top: 50px;
+  padding-right: 20px;
+}
+
+.h1{
+  color: #333232;
+  font-size: 46px;
+  font-weight:700;
+  line-height: 1.1em;
+}
+
+.about {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.buttons {
+  margin-top: 50px;
+
+  display: flex;
+}
+
+.learn-more {
+  margin-left: 10px;
+  background-color: white;
+  color: black;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.learn-more:hover {
+  background-color: #fdf2e9;
+  border: 5px solid white;
+}
+
+.customers {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.image {
+  border-radius: 50%;
+  width: 45px;
+  border: 3px solid white;
+  margin-right: -15px;
+}
+
+.customers div {
+  min-width: 195px;
+}
+
+.meals-delivered {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.meals-delivered span {
+  color: #e67e25;
+}
+
+.container-two {
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: #fdf2e9;
+}
+
+.container-two img {
+  width: 95%;
+}
+
+@media (max-width: 2560px) {
+
+  .container-one {
+    width: 650px;
+    margin-left: auto;
+  }
+
+  .container-two {
+    width: 650px;
+    margin-right: auto;
+  }
+
+}
+
+@media (max-width: 1160px) {
+  .h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .h1 {
+    font-size: 38px;
+  }
+
+  .meals-delivered {
+    font-size: 14px;
+  }
+
+  .image {
+    width: 40px;
+    margin-right: -12px;
+  }
+
+  .customers div {
+    min-width: 180px;
+  }
+
+  .about {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+
+  .buttons {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 977px) {
+
+  .h1 {
+    font-size: 34px;
+  }
+
+  .customers {
+    margin-top: 40px;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 945px) {
+
+  .header {
+    flex-direction: column;
+  }
+
+  .container-one {
+    width: 100%;
+    text-align: center;
+    padding-right: 70px;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .customers {
+    justify-content: center;
+  }
+
+  .container-two {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container-two img {
+    width: 65%;
+  }
+
+}
+
+@media (max-width: 540px) {
+
+  .container-one {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}
+
+@media (max-width: 415px) {
+
+  .header {
+    padding-bottom: 50px;
+  }
+
+  .h1 {
+    font-size: 30px;
+  }
+
+  .about {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+
+  .customers div {
+    min-width: 170px;
+  }
+  
+}
+
+@media (max-width: 375px) {
+
+  .header {
+    padding-bottom: 30px;
+  }
+
+  .h1 {
+    font-size: 26px;
+  }
+
+  .about {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+
+  .image {
+    width: 35px;
+  }
+
+  .customers div {
+    min-width: 150px;
+  }
+
+  .customers {
+    margin-top: 25px;
+    gap: 10px;
+  }
+
+  .meals-delivered {
+    font-size: 10px;
+  }
+  
+}
+
+@media (max-width: 320px) {
+  .header {
+    min-width: 320px;
+  }
+}

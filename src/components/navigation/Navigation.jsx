@@ -23,10 +23,10 @@ export default function Navigation() {
 
   return(
     <div className={styles.navigation}>
-      <img src={logo} alt="company logo"/> 
+      <img src={logo} alt="company logo" className={styles.logo}/> 
 
       {/* if open is true show mobile menu */}
-      {open && <Menu/>}
+      {matches && open && <Menu/>}
 
       {/* show the menu and close icon only when screen size reach 945px */}
       {matches === true ? open ? 
