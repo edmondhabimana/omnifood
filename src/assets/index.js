@@ -6,4 +6,12 @@ export { default as customer5 } from './customers/customer-5.jpg'
 export { default as customer6 } from './customers/customer-6.jpg'
 export { default as hero}  from './hero.png'
 
+export { default as businessInsider } from './logos/business-insider.png'
+export { default as forbes } from './logos/forbes.png'
+export { default as techcrunch } from './logos/techcrunch.png'
+export { default as theNewYorkTimes } from './logos/the-new-york-times.png'
+export { default as usaToday } from './logos/usa-today.png'
 
+export { default as appScreen1 } from './app/app-screen-1.png'
+export { default as appScreen2 } from './app/app-screen-2.png'
+export { default as appScreen3 } from './app/app-screen-3.png'
