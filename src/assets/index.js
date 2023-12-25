@@ -15,3 +15,6 @@ export { default as usaToday } from './logos/usa-today.png'
 export { default as appScreen1 } from './app/app-screen-1.png'
 export { default as appScreen2 } from './app/app-screen-2.png'
 export { default as appScreen3 } from './app/app-screen-3.png'
+
+export { default as meal1 } from './meals/meal-1.jpg'
+export { default as meal2 } from './meals/meal-2.jpg'

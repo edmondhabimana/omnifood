@@ -46,7 +46,6 @@
 .step {
   display: flex;
   height: 400px;
-  /* background-color: red; */
   margin-bottom: 50px;
 }
 
@@ -71,6 +70,7 @@
   width: 40%;
   position: relative;
   z-index: -2;
+  margin-bottom: 150px;
 }
 
 .step .number {
@@ -131,7 +131,6 @@
     width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    /* background-color: red; */
   }
 
 }
@@ -240,6 +239,10 @@
   .logos {
     height: 15px;
   }
+
+  .last-div {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 544px) {
@@ -271,12 +274,11 @@
 
   .step .first-div {
     width: 100%;
-    /* background-color: gray; */
   }
 
   .step .last-div {
-    /* background-color: black; */
     width: 100%;
+    margin-bottom: 0px;
   }
 
   .step .app {
