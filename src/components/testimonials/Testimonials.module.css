@@ -1,0 +1,158 @@
+.testimonials {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fdf2e9;
+  gap: 80px;
+}
+
+.testimonials-title {
+  text-transform: uppercase;
+  color: #e67e25;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.testimonials-header {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+.testimonials-statements-one,
+.testimonials-statements-two {
+  margin-bottom: 30px;
+  line-height: 1.5em;
+
+  display: flex;
+}
+
+.testimonials-statements-one {
+  gap: 60px;
+}
+
+.testimonials-statements-two {
+  gap: 20;
+}
+
+.testimonials-statements-two div:first-child {
+  padding-right: 40px;
+}
+
+.testimonials-statements-one .customers,
+.testimonials-statements-two .customers {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.testimonials-statements-one .customers,
+.testimonials-statements-one div p,
+.testimonials-statements-two .customers,
+.testimonials-statements-two div p {
+  margin-bottom: 10px;
+}
+
+.food {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.food div {
+  width: 15vw;
+  overflow: hidden;
+}
+
+.food img {
+  width: 15vw;
+}
+
+.food img:hover {
+  transform: scale(1.1);
+  transition: .4s;
+}
+
+@media (max-width: 1240px) {
+  .food {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .testimonials {
+    gap: 40px;
+  }
+
+  .testimonials-statements-one {
+    gap: 40px;
+  }
+  
+  .testimonials-statements-two {
+    gap: 50;
+  }
+  
+  .testimonials-statements-two div:first-child {
+    padding-right: 10px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .food {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+
+  .testimonials-statements-one,
+  .testimonials-statements-two {
+    flex-direction: column;
+  }
+
+  .testimonials-statements-one {
+    gap: 10px;
+  }
+
+  .food {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+  }
+
+  .food img {
+    width: 22vw;
+  }
+  
+  .food div {
+    width: 22vw;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .testimonials {
+    min-width: 320px;
+  }
+}
+
