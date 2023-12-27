@@ -19,11 +19,15 @@ button:hover {
 }
 
 @media (max-width: 977px) {
-
   button {
     font-size: 18px;
   }
+}
 
+@media (max-width: 710px) {
+  button {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 415px) {

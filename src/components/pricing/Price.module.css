@@ -1,0 +1,268 @@
+.pricing {
+  padding-top: 60px;
+  padding-left: 90px;
+  padding-bottom: 100px;
+  padding-right: 30px;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-title,
+.pricing-header {
+  /* background-color: red; */
+  align-self: flex-start;
+}
+
+.pricing-title {
+  text-transform: uppercase;
+  color: #e67e25;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.pricing-header {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.price-choice {
+  margin-top: 90px;
+  margin-bottom: 40px;
+
+  display: flex;
+  gap: 40px;
+}
+
+.price-choice div {
+  border: 1px solid #e67e25;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.price-choice div:nth-child(2) {
+  background-color: #fdf2e9;
+  overflow: hidden;
+  position: relative;
+}
+
+.price-choice div:nth-child(2) .tag {
+  width: 80%;
+  height: 8%;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #ffd43b;
+  text-align: center;
+  padding-top: 7px;
+  rotate: 50deg;
+  position: absolute;
+  top: 40px;
+  right: -70px;
+}
+
+.price-choice div ul {
+  list-style-type: none;
+}
+
+.price-choice p:nth-child(1) {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #e67e25;
+  text-transform: uppercase;
+}
+
+.price-choice p:nth-child(2) {
+  text-align: center;
+  font-size: 54px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.price-choice p:nth-child(2) span{
+  font-size: 30px;
+}
+
+.price-choice p:nth-child(3) {
+  color: #949494;
+}
+
+.price-choice ul {
+  margin-top: 20px;
+}
+
+.price-choice ul li {
+  margin-bottom: 20px;
+}
+
+.price-choice ul li .check,
+.price-choice ul li .x {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #e67e25;
+}
+
+.included-in-plan {
+  margin-top: 60px;
+
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  gap: 40px;
+}
+
+.included-in-plan p:first-of-type {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.included-in-plan p:last-of-type {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.included-in-plan .icons {
+  background-color: #fdf2e9;
+  padding: 20px;
+  border-radius: 50%;
+  color: #e67e25;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1300px) {
+  .pricing {
+    width: 100%;
+  }
+}
+
+@media (max-width: 710px) {
+  .pricing {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pricing-title {
+    font-size: 14px;
+  }
+
+  .pricing-header {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .price-choice {
+    margin-top: 40px;
+    gap: 20px;
+  }
+
+  .price-choice p:nth-child(1) {
+    font-size: 15px;
+  }
+  
+  .price-choice p:nth-child(2) {
+    font-size: 48px;
+  }
+
+  .price-choice p:nth-child(2) span{
+    font-size: 25px;
+  }
+  
+  .price-choice p:nth-child(3) {
+    font-size: 12px;
+  }
+
+  .price-choice ul li {
+    font-size: 14px;
+  }
+  
+  .price-choice ul li .check,
+  .price-choice ul li .x {
+    margin-right: 15px;
+    font-size: 15px;
+  }
+
+  .price-choice div:nth-child(2) .tag {
+    font-size: 12px;
+    height: 6%;
+    padding-top: 4px;
+  }
+
+  .middle-paragraph {
+    font-size: 14px;
+  }
+
+  .included-in-plan {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .included-in-plan p:first-of-type {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .included-in-plan p:last-of-type {
+    font-size: 15px;
+  }
+  
+  .included-in-plan .icons {
+    padding: 12px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 545px) {
+  .price-choice {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-choice p:nth-child(3) {
+    text-align: center;
+  }
+
+  .price-choice div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+
+  .price-choice div .buttons {
+    width: 50%;
+    align-self: center;
+  }
+
+  .price-choice div:nth-child(2) .tag {
+    padding-left: 70px;
+    top: 40px;
+    right: -90px;
+  }
+
+  .included-in-plan {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .price-choice div:nth-child(2) .tag {
+    padding-left: 0px;
+    top: 40px;
+    right: -70px;
+  }
+}
+
+@media (max-width: 320px) {
+  .pricing {
+    min-width: 320px;
+  }
+}
