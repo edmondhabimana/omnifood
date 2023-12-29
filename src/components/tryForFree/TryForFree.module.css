@@ -1,0 +1,174 @@
+.try-for-free {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  background-color: #e67700;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+
+.container-1 {
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.try-for-free-header {
+  font-size: 35px;
+  color: #4f4f4f;
+}
+
+.container-1 p {
+  line-height: 1.6em;
+}
+
+.container-1 form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.container-1 label {
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-1 button {
+  background-color: #45250a;
+  align-self: end;
+  height: 45px;
+}
+
+.input {
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+input[placeholder='me@example.com'],
+input[placeholder='John Smith'],
+.container-1 select {
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: #b4b4b4;
+}
+
+.background-image {
+  background-image: url(../../assets/eating.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  /* align-self: end; */
+}
+
+@media (max-width: 1200px) {
+  .try-for-free {
+    width: 100%;
+  }
+
+  .try-for-free-container {
+    padding-left: 20px;
+    padding-right: 20px
+  }
+}
+
+@media (max-width: 1052px) {
+  .try-for-free {
+    grid-template-columns: 55% 40%;
+     gap: 50px;
+  }
+
+  .background-image {
+    background-image: url(../../assets/eating.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    /* margin-right: -15px; */
+  }
+}
+
+@media (max-width: 945px) {
+  .try-for-free {
+    grid-template-columns: 55% 45%;
+     gap: 0px;
+  }
+  .container-1 form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 640px) {
+  .try-for-free {
+    height: 750px;
+    grid-template-columns: 100%;
+    grid-template-rows: 45% 55%;
+  }
+
+  .container-1 {
+    gap: 20px;
+  }
+
+  .try-for-free-header {
+    font-size: 26px;
+  }
+
+  .container-1 p {
+    font-size: 14px;
+  }
+
+  .container-1 form {
+    grid-template-columns: 95%;
+    gap: 15px;
+  }
+
+  .container-1 label {
+    font-size: 12px;
+    gap: 5px;
+  }
+
+  .container-1 button {
+    font-size: 12px;
+    height: 30px;
+  }
+  
+  .input {
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .background-image {
+    grid-row: 1/2;
+  }
+}
+
+@media (max-width: 480px) {
+  .try-for-free {
+    height: 850px;
+  }
+}
+
+@media (max-width: 360px) {
+  .try-for-free {
+    height: 900px;
+  }
+}
+
+@media (max-width: 320px) {
+  .try-for-free {
+    min-width: 320px;
+  }
+}

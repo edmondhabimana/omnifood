@@ -36,3 +36,5 @@ export { default as gallery9 } from './gallery/gallery-9.jpg'
 export { default as gallery10 } from './gallery/gallery-10.jpg'
 export { default as gallery11 } from './gallery/gallery-11.jpg'
 export { default as gallery12 } from './gallery/gallery-12.jpg'
+
+export { default as eating } from './eating.jpg'

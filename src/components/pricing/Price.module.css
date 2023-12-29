@@ -141,6 +141,37 @@
   }
 }
 
+@media (max-width: 1070px) {
+
+  .pricing {
+    padding-left: 30px;
+  }
+
+  .included-in-plan p:first-of-type {
+    font-size: 21px;
+  }
+  
+  .included-in-plan p:last-of-type {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 945px) {
+
+  .included-in-plan {
+    gap: 20px;
+  }
+
+  .included-in-plan .icons {
+    padding: 16px;
+    font-size: 20px;
+  }
+
+  .included-in-plan p:first-of-type {
+    font-size: 19px;
+  }
+}
+
 @media (max-width: 710px) {
   .pricing {
     padding-left: 20px;

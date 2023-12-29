@@ -4,6 +4,7 @@ import HowItWorks from "./components/howItWorks/HowItWorks"
 import Meals from "./components/meals/Meals"
 import Testimonials from "./components/testimonials/Testimonials" 
 import Price from "./components/pricing/Price"
+import TryForFree from "./components/tryForFree/TryForFree"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Meals/>
       <Testimonials/>
       <Price/>
+      <TryForFree/>
     </>
   )
 }
