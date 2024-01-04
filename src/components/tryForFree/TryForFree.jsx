@@ -1,9 +1,9 @@
 import styles from './TryForFree.module.css'
-import { eating } from '../../assets/index'
+// import { eating } from '../../assets/index'
 
 export default function TryForFree() {
   return(
-    <div className={styles['try-for-free-container']}>
+    <div className={styles['try-for-free-container']} id='try'>
     <div className={styles['try-for-free']}>
       <div className={styles['container-1']}>
         <h2 className={styles['try-for-free-header']}>Get your first meal for free!</h2>

@@ -61,7 +61,6 @@
 .food {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 15px;
 }
 
 .food div {
@@ -112,8 +111,16 @@
 
   .food {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+  }
+
+  .food div {
+    width: 14vw;
+  }
+  
+  .food img {
+    width: 14vw;
   }
 }
 
@@ -137,16 +144,16 @@
 
   .food {
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 5px;
   }
 
   .food img {
-    width: 22vw;
+    width: 20vw;
   }
 
   .food div {
-    width: 22vw;
+    width: 20vw;
   }
 
 }

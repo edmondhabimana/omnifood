@@ -5,17 +5,41 @@ import Meals from "./components/meals/Meals"
 import Testimonials from "./components/testimonials/Testimonials" 
 import Price from "./components/pricing/Price"
 import TryForFree from "./components/tryForFree/TryForFree"
+import Footer from "./components/footer/Footer"
+import { useState } from "react"
 
 function App() {
+  const [ selectedButton, setSelectedButton ] = useState(0)
+
+  function handleClick(id) {
+    setSelectedButton(id !== selectedButton ? id : selectedButton)
+  }
+
   return (
     <>
-      <Navigation/>
-      <Header/>
+      <Navigation 
+        clickButton={handleClick} 
+        selectedButton={selectedButton}
+      />
+      <Header 
+        clickButton={handleClick} 
+        selectedButton={selectedButton}
+      />
       <HowItWorks/>
-      <Meals/>
+      <Meals
+        clickButton={handleClick} 
+        selectedButton={selectedButton}      
+      />
       <Testimonials/>
-      <Price/>
+      <Price
+        clickButton={handleClick} 
+        selectedButton={selectedButton}
+      />
       <TryForFree/>
+      <Footer
+        clickButton={handleClick} 
+        selectedButton={selectedButton}      
+      />
     </>
   )
 }

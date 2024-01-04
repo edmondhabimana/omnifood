@@ -1,4 +1,4 @@
-import styles from './Testimonials.module.css'
+import testimonialsStyles from './Testimonials.module.css'
 import { dave, 
          ben, 
          steve, 
@@ -18,36 +18,36 @@ import { dave,
 
 export default function Testimonials() {
   return(
-    <div className={styles.testimonials}>
-      <div className={styles['testimonials-statements']}>
-        <p className={styles['testimonials-title']}>testimonials</p>
-        <h2 className={styles['testimonials-header']}>Once you try it, you can't go back</h2>
-        <div className={styles['testimonials-statements-one']}>
+    <div className={testimonialsStyles.testimonials} id='testimonials'>
+      <div className={testimonialsStyles['testimonials-statements']}>
+        <p className={testimonialsStyles['testimonials-title']}>testimonials</p>
+        <h2 className={testimonialsStyles['testimonials-header']}>Once you try it, you can't go back</h2>
+        <div className={testimonialsStyles['testimonials-statements-one']}>
           <div>
-            <img src={dave} alt='customer dave' className={styles.customers}/>
+            <img src={dave} alt='customer dave' className={testimonialsStyles.customers}/>
             <p>Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.</p>
             <p>— Dave Bryson</p>
           </div>
           <div>
-            <img src={ben} alt='customer ben' className={styles.customers}/>
+            <img src={ben} alt='customer ben' className={testimonialsStyles.customers}/>
             <p>The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!</p>
             <p>— Ben Hadley</p>
           </div>
         </div>
-        <div className={styles['testimonials-statements-two']}>
+        <div className={testimonialsStyles['testimonials-statements-two']}>
           <div>
-            <img src={steve} alt='customer steve' className={styles.customers}/>
+            <img src={steve} alt='customer steve' className={testimonialsStyles.customers}/>
             <p>Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!</p>
             <p>— Steve Miller</p>
           </div>
           <div>
-            <img src={hannah} alt='customer hannah' className={styles.customers}/>
+            <img src={hannah} alt='customer hannah' className={testimonialsStyles.customers}/>
             <p>I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.</p>
             <p>— Hannah Smith</p>
           </div>
         </div>
       </div>
-      <div className={styles.food}>
+      <div className={testimonialsStyles.food}>
         <div>
           <img src={gallery1} alt='food'/>
         </div>

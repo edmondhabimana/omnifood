@@ -135,6 +135,10 @@
   margin-bottom: 15px;
 }
 
+.selected {
+  box-shadow: 0 0 0 5px #fdd9bc;
+}
+
 @media (max-width: 1300px) {
   .pricing {
     width: 100%;

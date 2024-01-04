@@ -38,3 +38,5 @@ export { default as gallery11 } from './gallery/gallery-11.jpg'
 export { default as gallery12 } from './gallery/gallery-12.jpg'
 
 export { default as eating } from './eating.jpg'
+
+export { default as omnifoodLogo } from './omnifood-logo.png'

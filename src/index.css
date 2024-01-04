@@ -2,6 +2,22 @@
   font-family: 'Rubik', sans-serif;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #e67e25;
+}
+
 button {
   border: none;
   font-size: 20px;
@@ -14,7 +30,7 @@ button {
 }
 
 button:hover {
-  background-color: #e67700;
+  background-color: #bb6100;
   cursor: pointer;
 }
 

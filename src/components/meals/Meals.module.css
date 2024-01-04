@@ -183,6 +183,17 @@
   display: none;
 }
 
+.meals a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
+}
+
+.selected {
+  box-shadow: 0 0 0 5px #fdd9bc;
+}
+
 @media (max-width: 1300px) {
   .meals {
     width: 100%;
