@@ -49,28 +49,13 @@
   border-radius: 10px;
   color: #575757;
   height: 460px;
-}
-
-@keyframes card-hover {
-  from {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  to {
-    margin-top: -20px;
-    margin-bottom: 20px;
-  }
+  transition: all .4s ease-in-out;
 }
 
 .first-card:hover,
 .second-card:hover {
-
-  animation-name: card-hover;
-  animation-duration: 800ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  /* margin-top: -10px;
-  margin-bottom: 10px; */
+  margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 .meal-image {
